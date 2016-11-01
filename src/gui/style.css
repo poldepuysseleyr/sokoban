@@ -1,0 +1,209 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 3-apr-2015, 14:44:43
+    Author     : Thomas
+*/
+@font-face {
+    font-family: "Orator Std";
+    src: url('OratorStd.otf');
+}
+
+#foutbericht{
+    -fx-text-fill: red;
+    -fx-font-size: 1.2em;
+
+
+}
+.root
+{
+    -fx-font-family: "Orator Std";
+    -fx-font-weight: bold;
+    -fx-background-image: url(../images/bg.jpg);
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-text-fill: white;
+}
+.HBox
+{
+    //-fx-border: 1px white solid;
+}
+
+#status{
+    -fx-background-color: lightsteelblue;
+    -fx-padding: 10;
+    -fx-font-size: 1.5em;
+}
+#titel
+{
+    -fx-margin: 10;
+    -fx-padding: 10;
+    -fx-font-size: 7.188em;
+    -fx-text-alignment:  center;
+
+    -fx-effect: dropshadow( two-pass-box , black , 3,1,0,0 );
+
+}
+#btnNederlands
+{
+    -fx-background-image: url(../images/nederland.jpg);
+
+
+}
+#btnFrans
+{
+    -fx-background-image: url(../images/frans.png);
+
+}
+#btnEngels
+{
+    -fx-background-image: url(../images/uk.jpg);
+
+}
+
+#btnEngels:hover
+{
+
+    -fx-cursor: hand;
+}
+#btnFrans:hover
+{
+
+    -fx-cursor: hand;
+}
+#btnNederlands:hover
+{
+
+    -fx-cursor: hand;
+}
+
+#invoerLabel
+{
+    -fx-font-size: 1.7em;
+    -fx-text-fill: white;
+
+}
+
+#vboxAanmelden
+{
+    -fx-background-color: rgba(124,135,148,0.41);
+
+
+}
+
+#btnAanmelden
+{
+    -fx-background-color: #003471;
+    -fx-text-fill: white;
+    -fx-font-size: 2.5em;
+    -fx-font-weight: bold;
+
+}
+#btnAanmelden:hover
+{
+
+    -fx-cursor: hand;
+    -fx-background-color: #004ba4;
+}
+
+
+#vboxRegistreren
+{
+    -fx-background-color: rgba(124,135,148,0.41);
+
+
+}
+
+#btnRegistreren
+{
+    -fx-background-color: #003471;
+    -fx-text-fill: white;
+    -fx-font-size: 2.5em;
+    -fx-font-weight: bold;
+
+}
+#btnRegistreren:hover
+{
+
+    -fx-cursor: hand;
+    -fx-background-color: #004ba4;
+}
+
+#btnTerug, #btnStoppen, #btnVerwijderen
+{
+    -fx-background-color: #9A0817;
+    -fx-text-fill: white;
+    -fx-font-size: 2.5em;
+    -fx-font-weight: bold;
+
+}
+#btnTerug:hover, #btnStoppen:hover, #btnVerwijderen:hover
+{
+
+    -fx-cursor: hand;
+    -fx-background-color: #BD0909;
+}
+
+#btnResetten, #btnOpslaan
+{
+    -fx-background-color: #6DC066;
+    -fx-text-fill: white;
+    -fx-font-size: 2.5em;
+    -fx-font-weight: bold;
+}
+
+#btnResetten:hover, #btnOpslaan:hover
+{
+    -fx-cursor: hand;
+    -fx-background-color: #A0DB8E;
+}
+
+#vboxError
+{
+    -fx-background-color: rgba(124,135,148,0.41);
+}
+
+#btnRechts
+{
+    -fx-background-image: url(../images/arrow_right.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#btnLinks
+{
+    -fx-background-image: url(../images/arrow-left.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#btnBoven
+{
+    -fx-background-image: url(../images/arrow-up.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#btnOnder
+{
+    -fx-background-image: url(../images/arrow-down.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#scrollSpelNamen{
+    -fx-background: transparent;
+    -fx-background-color: transparent;
+}
+
+.btnsSpelNamen{
+    -fx-background-color: #003471;
+    -fx-text-fill: white;
+    -fx-font-size: 2.5em;
+    -fx-font-weight: bold;
+}
+
+.btnsSpelNamen:hover{
+    -fx-cursor: hand;
+    -fx-background-color: #004ba4;
+}
